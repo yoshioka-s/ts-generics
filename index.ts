@@ -1,4 +1,5 @@
 import _ from './myLodash'
+import request from './asyncronous/callback'
 
 interface User {
   name: string
@@ -41,3 +42,5 @@ const promise = new Promise((resolve, reject) => {
 _.each(users, (user, i) => {
   console.log(user.email, user.name, i)
 })
+
+// request()
