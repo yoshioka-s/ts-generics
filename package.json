@@ -1,0 +1,18 @@
+{
+  "name": "ts-generics",
+  "version": "1.0.0",
+  "description": "lecture sample for ts generics",
+  "main": "index.js",
+  "repository": "https://github.com/yoshioka-s/ts-generics",
+  "author": "yoshioka-s",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
+  }
+}
